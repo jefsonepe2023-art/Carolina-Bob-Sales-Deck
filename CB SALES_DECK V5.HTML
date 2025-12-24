@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <title>Heart Healthy Seasoning Blend: The No-Sodium Solution</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script> <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8fafc; /* Light Gray/Blue background */
+        }
+        .section-header {
+            border-left: 6px solid #b91c1c; /* Carolina Bobs Red */
+            padding-left: 1rem;
+            margin-bottom: 2rem;
+            line-height: 1.1;
+        }
+        .card-shadow {
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+            transition: transform 0.3s ease;
+        }
+        .card-shadow:hover {
+            transform: translateY(-3px);
+        }
+        .video-embed {
+            aspect-ratio: 16 / 9;
+            width: 100%;
+            height: 100%;
+        }
+        /* Custom style for the compelling CTA button (Top) */
+        .cta-button {
+            transition: all 0.3s ease-in-out;
+            animation: pulse-shadow 2s infinite;
+        }
+        .cta-button:hover {
+            transform: scale(1.05) translateY(-2px);
+            box-shadow: 0 10px 20px rgba(185, 28, 28, 0.5); /* Stronger red shadow on hover */
+        }
+        /* Unique style for the secondary (footer) CTA */
+        .secondary-cta {
+            background-color: #b91c1c; /* Red color */
+            color: #ffffff;
+            transition: all 0.3s ease;
+        }
+        .secondary-cta:hover {
+            background-color: #991b1b;
+            transform: scale(1.05);
+        }
+        @keyframes pulse-shadow {
+            0% { box-shadow: 0 0 0 0 rgba(251, 191, 36, 0.7); }
+            70% { box-shadow: 0 0 0 10px rgba(251, 191, 36, 0); }
+            100% { box-shadow: 0 0 0 0 rgba(251, 191, 36, 0); }
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <div class="max-w-6xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
+
+        <header class="text-center bg-red-700 text-white p-10 rounded-xl mb-16 shadow-2xl">
+            <div class="mb-6">
+                <img src="https://static.wixstatic.com/media/5c44ca_778f31b8224941baae26fe94340221d6~mv2.png/v1/fill/w_744,h_744,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/5c44ca_778f31b8224941baae26fe94340221d6~mv2.png" 
+                     alt="Carolina Bobs Official Logo" 
+                     class="w-40 h-40 mx-auto rounded-full border-4 border-yellow-400 object-cover">
+            </div>
+            <h1 class="text-5xl md:text-6xl font-extrabold tracking-tight mb-4">
+                HEART HEALTHY SEASONING BLEND
+            </h1>
+            <p class="text-xl md:text-2xl font-light max-w-4xl mx-auto">
+                The Simple Swap That Saves Lives (and Budgets) — **0mg Added Sodium**.
+            </p>
+            <div class="mt-8">
+                <a href="https://www.carolinabobs.com/" class="inline-block bg-yellow-400 text-gray-900 font-bold py-4 px-10 rounded-full shadow-lg ring-4 ring-yellow-300 hover:bg-yellow-500 cta-button uppercase tracking-widest text-lg">
+                    SECURE YOUR FREE 5LB TRIAL SAMPLE
+                </a>
+                <p class="mt-2 text-sm font-medium text-yellow-100">Zero Obligation. Immediate Compliance Solution.</p>
+            </div>
+        </header>
+
+        <section class="mb-16">
+            <h2 class="text-4xl font-bold text-center text-gray-800 mb-10">The Child Nutrition Balancing Act</h2>
+            <div class="grid md:grid-cols-3 gap-8 text-center">
+                <div class="p-6 bg-white rounded-lg card-shadow">
+                    <i class="fas fa-clipboard-check text-4xl text-red-500 mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-2">Compliance & Taste</h3>
+                    <p class="text-gray-600">Meeting ever-tighter USDA sodium guidelines without sacrificing the flavor kids expect.</p>
+                </div>
+                <div class="p-6 bg-white rounded-lg card-shadow">
+                    <i class="fas fa-trash-alt text-4xl text-blue-500 mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-2">The Waste Problem</h3>
+                    <p class="text-gray-600">Bland, low-sodium meals are often rejected by students, leading to increased food waste and budget loss.</p>
+                </div>
+                <div class="p-6 bg-white rounded-lg card-shadow">
+                    <i class="fas fa-sync-alt text-4xl text-red-700 mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-2">Simple 1:1 Swap</h3>
+                    <p class="text-gray-600">No complex conversions or staff retraining required. Use it as a direct replacement for salt or basic seasoning blends.</p>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="mb-16 bg-gray-50 p-8 rounded-xl shadow-inner">
+            <h2 class="text-4xl font-bold text-gray-800 section-header">Medical Validation: Dr. Buffaloe on Heart Health</h2>
+            <div class="bg-gray-900 rounded-xl overflow-hidden shadow-xl aspect-video relative">
+                <iframe class="video-embed"
+                    src="https://www.youtube-nocookie.com/embed/-PGO4t5JaVM?start=2" 
+                    title="Dr. Buffaloe Endorsement Video"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen>
+                </iframe>
+            </div>
+            <p class="mt-4 text-center text-lg italic text-gray-600 max-w-4xl mx-auto">
+                "Our blend supports lifelong wellness." Dr. Buffaloe, Cardiologist, explains the critical link between low-sodium diets and long-term student health.
+            </p>
+        </section>
+
+
+        <section id="testimonials" class="mb-16">
+            <h2 class="text-4xl font-bold text-gray-800 section-header">Proven Success: Greenville County Case Study</h2>
+
+            <div class="bg-red-50 p-6 rounded-lg mb-8 border-l-4 border-red-700">
+                <div class="grid md:grid-cols-2 gap-8 items-center">
+                    <div>
+                        <h3 class="text-3xl font-bold text-red-700 mb-4">Greenville County: Scaling Flavor and Compliance</h3>
+                        <p class="text-gray-700 mb-4">Greenville County School District successfully implemented the Heart Healthy blend across their high-volume operations, proving that large-scale compliance doesn't require sacrificing quality or student acceptance.</p>
+                        <p class="text-lg font-semibold text-gray-800">Key Usage Highlights:</p>
+                        <ul class="list-disc list-inside ml-4 text-gray-600">
+                            <li>Seamless integration into existing recipes and processes.</li>
+                            <li>Applied to all high-volume entrees and vegetable sides.</li>
+                            <li>Sustained student satisfaction while meeting CNP guidelines.</li>
+                        </ul>
+                    </div>
+                    <div class="bg-gray-900 rounded-lg aspect-video flex items-center justify-center relative">
+                        <iframe class="video-embed"
+                            src="https://www.youtube-nocookie.com/embed/0M0PiWecbvU"
+                            title="Greenville County Usage Showcase Video"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin"
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-16">
+            <h2 class="text-4xl font-bold text-gray-800 section-header">Menu Versatility: Flavor Across the Full Day</h2>
+            <p class="text-lg text-gray-600 mb-8 max-w-4xl">
+                Our blend is designed for maximum versatility, ensuring it performs perfectly across breakfast, lunch, and sides.
+            </p>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white rounded-lg p-6 card-shadow border-b-4 border-red-700">
+                    <h3 class="text-2xl font-semibold mb-3 text-red-700">Lunch Entrées</h3>
+                    <p class="text-sm text-gray-500 mb-4">Perfect for Taco Meat, Chili, Spaghetti Sauce, and Roasted Chicken.</p>
+                    <ul class="list-disc list-inside text-gray-700 ml-4">
+                        <li>Mixes easily into bulk ground beef and turkey.</li>
+                        <li>Delivers a savory Southern flavor profile.</li>
+                        <li>Simple 1:1 replacement for traditional seasoning packs.</li>
+                    </ul>
+                </div>
+
+                <div class="bg-white rounded-lg p-6 card-shadow border-b-4 border-gray-700">
+                    <h3 class="text-2xl font-semibold mb-3 text-gray-700">Side Dishes</h3>
+                    <p class="text-sm text-gray-500 mb-4">Elevates roasted vegetables, soups, and stews.</p>
+                    <ul class="list-disc list-inside text-gray-700 ml-4">
+                        <li>Enhances natural flavors of broccoli, potatoes, and carrots.</li>
+                        <li>Adds depth to stocks without the sodium spike.</li>
+                        <li>Reduces dependence on butter and oils for flavor.</li>
+                    </ul>
+                </div>
+
+                <div class="bg-white rounded-lg p-6 card-shadow border-b-4 border-yellow-500">
+                    <h3 class="text-2xl font-semibold mb-3 text-yellow-600">Breakfast</h3>
+                    <p class="text-sm text-gray-500 mb-4">Savory addition to scrambled eggs and low-sodium sausage gravy.</p>
+                    <ul class="list-disc list-inside text-gray-700 ml-4">
+                        <li>Starts the day with delicious, heart-healthy flavor.</li>
+                        <li>Easy shake-on application for high-volume prep.</li>
+                        <li>Consistent flavor profile across large egg batches.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <footer id="contact" class="text-center bg-gray-100 p-8 rounded-xl border-t-4 border-red-700">
+            <h2 class="text-4xl font-extrabold text-gray-800 mb-4">Don't Choose Between Compliance and Flavor.</h2>
+            <p class="text-xl text-gray-700 mb-6 font-semibold">
+                Join our featured districts today and start serving truly heart-healthy, student-approved meals.
+            </p>
+
+            <div class="mb-8">
+                <a href="mailto:Robert@CarolinaBobs.com" class="inline-block secondary-cta font-bold py-4 px-10 rounded-full shadow-lg ring-4 ring-red-300 uppercase tracking-widest text-lg">
+                    SCHEDULE A QUICK CALL & DEMO
+                </a>
+            </div>
+
+            <div class="inline-block p-4 bg-white rounded-xl shadow-md border border-gray-200 text-left">
+                <h3 class="text-xl font-bold text-red-700 mb-1">Robert Hoefer</h3>
+                <p class="text-md text-gray-600 mb-2">President/Owner</p>
+                <p class="text-lg font-medium text-gray-800 mb-1">
+                    <span class="text-red-500 font-bold mr-1">Email:</span> <a href="mailto:Robert@CarolinaBobs.com" class="text-blue-600 hover:underline">Robert@CarolinaBobs.com</a>
+                </p>
+                <p class="text-lg font-medium text-gray-800">
+                    <span class="text-red-500 font-bold mr-1">Phone:</span> <a href="tel:8643258774" class="text-blue-600 hover:underline">864.325.8774</a>
+                </p>
+            </div>
+        </footer>
+
+    </div>
+
+</body>
+</html>
+</html>
